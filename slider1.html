@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+   
+    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		.fluid_container {
+            margin: 1px;
+		}
+        #camera_wrap_1 {
+            margin: 0;
+            padding: 0;
+        }
+	</style>
+
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='js/camera.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true,
+                height: '350px'
+			});
+		});
+	</script>
+ 
+</head>
+<body>
+    
+	<div class="fluid_container">  
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="images/thumbs/3.jpg" data-src="images/3.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    True scholarhsip consist in knowing not what things exist, but they mean; it is not memowry but judgment.&nbsp;&nbsp;<em> - James Russell Lowell</em>
+                </div>
+            </div>
+            <div data-thumb="images/thumbs/4.jpg" data-src="images/4.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Originality is the essence of true scholarship. Creativity is the soul of the true scholar.&nbsp;&nbsp; <em> - Nnamdi Azikiwe</em>
+                </div>
+            </div>
+            <div data-thumb="images/thumbs/5.jpg" data-src="images/5.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    In Jewish tradition, death-defying devotion to scholarship was the stuff of saintliness.&nbsp;&nbsp;<em> - Israel Shenker</em>
+                </div>
+            </div>
+            <div data-thumb="images/thumbs/homeslider_04.jpg" data-src="images/homeslider_04.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    We all have dreams. But in order to make dreams come into reality, it takes an awful lot of determination, dedication, self-discipline and effort. <em> - Jesse Owens</em>
+                </div>
+            </div>
+            <div data-thumb="images/thumbs/homeslider_05.jpg" data-src="images/homeslider_05.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Educating the mind without educating the heart is no education at all. <em> - Aristotle</em>
+                </div>
+            </div>
+            <div data-thumb="images/thumbs/blocks-header.jpg" data-src="images/blocks-header.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    If you can't explain it simply, you don't understand it well enough.<em> - Albert Einstein</em>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body> 
+</html>
